@@ -1,0 +1,86 @@
+/* Basic Reset */
+body, h1, p, div, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* Body Style */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://watermark.lovepik.com/photo/50033/5481.jpg_wh1200.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Header Style */
+header {
+    margin-bottom: 20px;
+}
+
+/* Game Container Style */
+#game {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+/* Drop Container Style */
+.drop-container {
+    width: 45%;
+    min-height: 200px;
+    padding: 10px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: #ffffff7e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Draggable Items Style */
+.draggable {
+    margin: 10px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Drop Zone Style */
+.drop-zone {
+    margin: 10px;
+    padding: 10px;
+    background-color: #FFC107;
+    border-radius: 5px;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Timer Style */
+#timer {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: rgb(255, 0, 0);
+}
+
+/* Button Style */
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+h1{
+    color: rgb(255, 255, 255);
+}
